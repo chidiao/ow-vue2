@@ -1,0 +1,43 @@
+.text-cut {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-cut2,
+.text-cut3,
+.text-cut4,
+.text-cut5 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+.text-cut2 {
+  -webkit-line-clamp: 2;
+}
+
+.text-cut3 {
+  -webkit-line-clamp: 3;
+}
+
+.text-cut4 {
+  -webkit-line-clamp: 4;
+}
+
+.text-cut5 {
+  -webkit-line-clamp: 5;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
