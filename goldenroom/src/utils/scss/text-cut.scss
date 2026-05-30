@@ -1,0 +1,22 @@
+// 文本截断
+.text-cut {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-cut2,
+.text-cut3,
+.text-cut4,
+.text-cut5 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+@for $i from 2 through 5 {
+  .text-cut#{$i} {
+    -webkit-line-clamp: $i;
+  }
+}
