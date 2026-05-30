@@ -6,13 +6,16 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "engines": {
+    "node": ">=12.22.12 <13",
+    "npm": ">=6 <7"
+  },
   "dependencies": {
     "animate.css": "^4.1.1",
     "ant-design-vue": "^1.6.5",
     "axios": "^0.20.0",
     "core-js": "^3.6.5",
     "gsap": "^3.5.1",
-    "prerender-spa-plugin": "^3.4.0",
     "swiper": "^5.4.5",
     "vue": "^2.6.11",
     "vue-awesome-swiper": "^4.1.1",

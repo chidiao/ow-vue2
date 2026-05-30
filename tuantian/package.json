@@ -6,6 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "engines": {
+    "node": ">=12.22.12 <13",
+    "npm": ">=6 <7"
+  },
   "dependencies": {
     "animate.css": "^3.7.2",
     "animejs": "^3.2.0",

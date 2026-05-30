@@ -53,8 +53,5 @@ new Vue({
   router,
   store,
   i18n,
-  mounted() {
-    document.dispatchEvent(new Event('prerender'))
-  },
   render: h => h(App)
 }).$mount('#app')
